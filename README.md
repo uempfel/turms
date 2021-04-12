@@ -1,4 +1,5 @@
-# Turms
+![Turms](https://user-images.githubusercontent.com/28337775/114446466-8a8e8c00-9bd1-11eb-88fd-38924dfdb0fc.png)
+
 Turms ([the Etruscan messenger god, 𐌕𐌖𐌓𐌌𐌑](https://en.wikipedia.org/wiki/Turms)) is a CLI to send messages
 to Microsoft Teams Channels via Incoming Webhooks.
 
@@ -31,3 +32,6 @@ Flags:
   -t, --title string            title to display in the message
   -u, --url string              webhook Url (overrides $TURMS_URL)
   ```
+  
+### Image Credits
+* Gopher: [Maria Letta - Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)
