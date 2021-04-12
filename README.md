@@ -33,5 +33,6 @@ Flags:
   -u, --url string              webhook Url (overrides $TURMS_URL)
   ```
   
-### Image Credits
+### Credits
 * Gopher: [Maria Letta - Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)
+* Turms is really just a wrapper for https://github.com/atc0005/go-teams-notify. Credits to the authors!
