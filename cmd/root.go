@@ -109,7 +109,7 @@ func init() {
 	rootCmd.Flags().StringVarP(&color, "color", "c", "", "theme color to display in the message (webcolors or hexcodes are supported)")
 	rootCmd.Flags().StringVarP(&title, "title", "t", "", "title to display in the message")
 	rootCmd.Flags().StringVarP(&fileBody, "body-from-file", "f", "", "path to a markdown file to send as body (takes precedence over the \"--body\" flag)\nRequired, if \"--body\" is not set")
-	rootCmd.Flags().StringVarP(&overriddenUrl, "url", "u", "", "webhook Url (overrides $TURM_URL)")
+	rootCmd.Flags().StringVarP(&overriddenUrl, "url", "u", "", "webhook Url (overrides $TURMS_URL)")
 }
 
 func sendTheMessage() error {
